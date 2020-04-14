@@ -6,7 +6,7 @@
 }
 
 body {
-    background-color: #97aabd;
+    background-color: #FFF;
 }
 table {
     border-collapse: collapse;
@@ -46,6 +46,6 @@ table tr td:hover {
     margin: 10px auto;
     display: block;
     border: none;
-    background-color: #272727;
+    background-color: #FFF;
     font-size: 40px;
 }
