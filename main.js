@@ -17,11 +17,11 @@ $(document).ready(function () {
             move++;
             if (checkForWinner() != -1 && checkForWinner() != "") {
                 if (checkForWinner() == "X") {
-                    $('body').append('<div class="winner"><span>Winner</span>X</div><button style="cursor: pointer" onclick="location.reload();" id="reload">Play Again</button>');
+                    $('body').append('<div class="winner"><span>Winner</span>X</div><button onclick="location.reload();" id="reload">Play Again</button>');
                     $('.winner').css('background-color', '#61892f');
                     $('#reload').css('color','#61892f');
                 } else {
-                    $('body').append('<div class="winner"><span>Winner</span>O</div><button style="cursor: pointer" onclick="location.reload();" id="reload">Play Again</button>');
+                    $('body').append('<div class="winner"><span>Winner</span>O</div><button onclick="location.reload();" id="reload">Play Again</button>');
                     $('.winner').css('background-color', '#e85a4f');
                     $('#reload').css('color','#e85a4f');
                 }
